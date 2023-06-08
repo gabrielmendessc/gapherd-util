@@ -15,17 +15,20 @@ public class PumpScreen extends AbstractContainerScreen<PumpMenu> {
         super(p_98685_, p_98686_, p_98687_);
     }
 
+    @Override
     protected void init() {
         super.init();
         this.titleLabelX = (this.imageWidth - this.font.width(this.title)) / 2;
     }
 
+    @Override
     public void render(PoseStack p_98694_, int p_98695_, int p_98696_, float p_98697_) {
         this.renderBackground(p_98694_);
         super.render(p_98694_, p_98695_, p_98696_, p_98697_);
         this.renderTooltip(p_98694_, p_98695_, p_98696_);
     }
 
+    @Override
     protected void renderBg(PoseStack p_98689_, float p_98690_, int p_98691_, int p_98692_) {
         RenderSystem.setShaderTexture(0, CONTAINER_LOCATION);
         int i = (this.width - this.imageWidth) / 2;
