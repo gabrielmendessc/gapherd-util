@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/dispenser",
+  "textures": {
+    "front": "gapherdutil:block/pump_block_front"
+  }
+}

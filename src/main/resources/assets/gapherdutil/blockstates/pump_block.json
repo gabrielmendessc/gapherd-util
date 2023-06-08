@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "minecraft:block/dispenser_vertical",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "gapherdutil:block/pump_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "gapherdutil:block/pump_block"
+    },
+    "facing=south": {
+      "model": "gapherdutil:block/pump_block",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "minecraft:block/dispenser_vertical"
+    },
+    "facing=west": {
+      "model": "gapherdutil:block/pump_block",
+      "y": 270
+    }
+  }
+}
