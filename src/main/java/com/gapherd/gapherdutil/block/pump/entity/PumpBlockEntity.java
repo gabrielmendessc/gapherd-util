@@ -20,12 +20,15 @@ public class PumpBlockEntity extends DispenserBlockEntity {
     @Override
     protected Component getDefaultName() {
 
-        return Component.literal("Ejector");
+        return Component.translatable("block.gapherdutil.pump_block");
 
     }
 
     @Override
     protected AbstractContainerMenu createMenu(int id, Inventory inventory) {
+
         return new PumpMenu(id, inventory, this);
+
     }
+
 }
