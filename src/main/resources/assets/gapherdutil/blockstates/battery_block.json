@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "powered=true": {
+      "model": "gapherdutil:block/battery_block_on"
+    },
+    "powered=false,charging_level=0": {
+      "model": "gapherdutil:block/battery_block"
+    },
+    "powered=false,charging_level=1":{
+      "model": "gapherdutil:block/battery_block_one_charged"
+    },
+    "powered=false,charging_level=2": {
+      "model": "gapherdutil:block/battery_block_two_charged"
+    },
+    "powered=false,charging_level=3": {
+      "model": "gapherdutil:block/battery_block_three_charged"
+    }
+  }
+}

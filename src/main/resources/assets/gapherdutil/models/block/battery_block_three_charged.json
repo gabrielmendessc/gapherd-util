@@ -1,0 +1,7 @@
+{
+  "parent": "gapherdutil:block/orientable_side",
+  "textures": {
+    "side": "gapherdutil:block/battery_block_three_charged",
+    "top": "minecraft:block/copper_block"
+  }
+}

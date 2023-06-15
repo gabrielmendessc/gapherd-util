@@ -1,5 +1,11 @@
 {
   "block.gapherdutil.pump_block": "Bomba",
+  "block.gapherdutil.battery_block": "Bateria",
+
+  "item.gapherdutil.empty_battery_shell": "Pilha Descarregada",
+  "item.gapherdutil.charged_battery_shell": "Pilha Carregada",
+
+  "sounds.gapherdutil.electricity_sound": "Eletricidade",
 
   "creativemodetab.gapherdutil": "Gapherd's Utils"
 }

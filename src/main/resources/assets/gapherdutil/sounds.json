@@ -1,0 +1,6 @@
+{
+  "electricity_sound": {
+    "subtitle": "sounds.gapherdutil.electricity_sound",
+    "sounds": ["gapherdutil:electricity_sound"]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "CGC",
+    "GAG",
+    "CGC"
+  ],
+  "result": {
+    "item": "gapherdutil:battery_block"
+  },
+  "show_notification": true
+}

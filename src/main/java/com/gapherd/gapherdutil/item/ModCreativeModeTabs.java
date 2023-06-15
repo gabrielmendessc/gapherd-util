@@ -13,12 +13,12 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = GapherdUtil.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModCreativeModeTabs {
 
-    public static CreativeModeTab LIQUIDCRAFT_TAB;
+    public static CreativeModeTab GAPHERDUTIL_TAB;
 
     @SubscribeEvent
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
 
-        LIQUIDCRAFT_TAB = event.registerCreativeModeTab(new ResourceLocation(GapherdUtil.MOD_ID, "gapherdutil_tab"), builder -> {
+        GAPHERDUTIL_TAB = event.registerCreativeModeTab(new ResourceLocation(GapherdUtil.MOD_ID, "gapherdutil_tab"), builder -> {
             builder.icon(() -> new ItemStack(ModBlocks.PUMP_BLOCK.get()))
                     .title(Component.translatable("creativemodetab.gapherdutil"));
         });

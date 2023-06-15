@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "gapherdutil:pump_block",
+    "gapherdutil:battery_block"
+  ]
+}

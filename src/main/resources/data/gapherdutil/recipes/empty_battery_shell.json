@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    " C ",
+    " R ",
+    " C "
+  ],
+  "result": {
+    "item": "gapherdutil:empty_battery_shell"
+  },
+  "show_notification": true
+}

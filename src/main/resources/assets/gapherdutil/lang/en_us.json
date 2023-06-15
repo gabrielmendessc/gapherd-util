@@ -1,5 +1,11 @@
 {
   "block.gapherdutil.pump_block": "Pump",
+  "block.gapherdutil.battery_block": "Battery",
+
+  "item.gapherdutil.empty_battery_shell": "Empty Battery Shell",
+  "item.gapherdutil.charged_battery_shell": "Charged Battery Shell",
+
+  "sounds.gapherdutil.electricity_sound": "Electricity",
 
   "creativemodetab.gapherdutil": "Gapherd's Utils"
 }
